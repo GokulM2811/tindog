@@ -1,0 +1,186 @@
+/* title */
+#title {
+  background-color: #ff4c66;
+}
+
+
+
+h1 {
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+  margin-top:8%;
+  margin-bottom:7%;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.download {
+  padding: 5px 10px;
+  margin: 5% 1% 5% 1%;
+}
+
+.navbar {
+  padding-left: 0px;
+  margin-bottom: 5%;
+}
+.nav-item{
+  margin:0 4%;
+}
+
+.nav-link {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 50px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.iphone {
+  transform: rotate(20deg);
+  width: 60%;
+  position: absolute;
+  right:10%
+}
+
+
+/* features */
+.col-lg-4 {
+  text-align: center;
+}
+
+#features {
+  padding: 14% 15%;
+  position: relative;
+  z-index=1;
+  background-color: #fff;
+}
+
+.fetimage {
+  height: 4rem;
+  width: 4rem;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+h3 {
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'Baloo Tamma 2', cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+.who{
+  color:#000;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+@media(max-width:992px){
+  .testimonial-text{
+    font-size:3rem;
+  }
+}
+
+/* press */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 60%;
+  margin: 5px 10px 10px;
+}
+
+.rowpress {
+  margin: 0px 10% 0 10%;
+}
+
+.press-list {
+  margin-bottom: 4%;
+}
+
+/* pricing */
+.pricing-button{
+  margin: 0px;
+}
+
+.pricehead {
+  margin: 0px;
+}
+.needs{
+  text-align: center;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media(max-width:992px){
+  .iphone{
+    transform:rotate(0);
+    position:static;
+  }
+  .container-fluid{
+    text-align: center;
+  }
+}
+
+
+/* call to action */
+
+
+#cta{
+  background-color: #ff4c66;
+  text-align: center;
+  padding-top:10%;
+  padding-bottom: 5%;
+}
+.true{
+  width:50%;
+  margin:auto;
+  color:#fff;
+}
+
+
+/* footer */
+
+#footer{
+  padding-top:3%;
+  padding-left:auto;
+  padding-right:auto;
+  padding-bottom:1%;
+  text-align:center;
+  line-height: 2;
+}
